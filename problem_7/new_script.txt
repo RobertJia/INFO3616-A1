@@ -1,0 +1,5 @@
+#!/bin/bash
+
+find . -user $(whoami) -perm -u+rwx -type f
+
+# move this file to home for it to work
